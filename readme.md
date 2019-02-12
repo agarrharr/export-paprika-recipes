@@ -25,6 +25,10 @@ const paprika = require('export-paprika-recipes');
 paprika.saveRecipes(username, password, 'recipes.json');
 ```
 
+## Related
+
+- [paprika-api](https://github.com/joshstrange/paprika-api)
+
 ## License
 
 MIT
