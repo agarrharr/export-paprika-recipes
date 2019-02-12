@@ -1,5 +1,7 @@
 # export-paprika-recipes
 
+Exports recipes from Paprika using their API.
+
 ## exportRecipes
 
 To get an array of recipes:
