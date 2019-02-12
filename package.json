@@ -1,14 +1,26 @@
 {
-  "name": "paprika-export",
+  "name": "export-paprika-recipes",
   "version": "1.0.0",
-  "description": "",
+  "description": "## exportRecipes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Adam Garrett-Harris",
   "license": "MIT",
   "dependencies": {
     "paprika-api": "^1.0.3"
-  }
+  },
+  "engines": {
+    "node": ">=10.9.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarrharr/export-paprika-recipes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agarrharr/export-paprika-recipes/issues"
+  },
+  "homepage": "https://github.com/agarrharr/export-paprika-recipes#readme"
 }
