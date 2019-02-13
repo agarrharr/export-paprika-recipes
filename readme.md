@@ -2,6 +2,12 @@
 
 Exports recipes from Paprika using their API.
 
+## Install
+
+```sh
+npm install export-paprika-recipes
+```
+
 ## exportRecipes
 
 To get an array of recipes:
