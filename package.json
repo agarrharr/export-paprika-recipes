@@ -9,7 +9,8 @@
   "author": "Adam Garrett-Harris",
   "license": "MIT",
   "dependencies": {
-    "paprika-api": "^1.0.3"
+    "paprika-api": "^1.0.3",
+    "request": "^2.88.0"
   },
   "engines": {
     "node": ">=10.9.0"
