@@ -1,6 +1,6 @@
 {
   "name": "export-paprika-recipes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "## exportRecipes",
   "main": "index.js",
   "scripts": {
