@@ -4,9 +4,6 @@ const request = require('request');
 
 const download = (uri, filename, callback) => {
   request.head(uri, function(err, res, body){
-    // console.log('content-type:', res.headers['content-type']);
-    // console.log('content-length:', res.headers['content-length']);
-
     request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
   });
 };
@@ -22,9 +19,7 @@ const saveRecipes = async (username, password, filename, photoDirectory) => {
     });
 
     recipes.map(recipe => {
-      // console.log(recipe.photo_url);
-      console.log(`${photoDirectory}/${recipe.uid}.jpg`);
-      download(recipe.photo_url, `${photoDirectory}/${recipe.uid}.jpg`, () => console.log(`Downloaded ${recipe.photo_url}`))
+      download(recipe.photo_url, `${photoDirectory}/${recipe.uid}.jpg`, () => {})
     });
 };
 
