@@ -1,6 +1,6 @@
 {
   "name": "export-paprika-recipes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "## exportRecipes",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,6 @@
   "dependencies": {
     "paprika-api": "^1.0.3",
     "request": "^2.88.0"
-  },
-  "engines": {
-    "node": ">=10.9.0"
   },
   "devDependencies": {},
   "repository": {
